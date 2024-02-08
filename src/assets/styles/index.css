@@ -1,0 +1,18 @@
+:root{
+    --footer-size: 6rem;
+}
+
+body{
+    padding-bottom: var(--footer-size);
+}
+
+.section {
+    position: relative;
+    min-height: 350px;
+    width: 100%;
+}
+
+.page-header {
+    background-color: lightgray;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(30, 30, 30, 0.5)), url(https://picsum.photos/1080/540)
+}

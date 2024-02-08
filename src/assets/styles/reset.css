@@ -1,0 +1,80 @@
+/* FRESH CSS RESET */
+
+/* 
+    Breakpoints
+        For Mobile Devices – 320px — 480px.
+        iPads and Tablets – 481px — 768px.
+        Laptops and small screen – 769px — 1024px.
+        Large screens and Desktops – 1025px — 1200px.
+        TV and Extra Large Screens – 1201px and more.
+*/
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font: inherit; */
+}
+
+@font-face {
+    font-family: 'Valentines';
+    src: url('I-Love-Glitter.ttf')
+        /* url('Bold-And-Stylish-Calligraphy.ttf'); */
+}
+
+html {
+    hanging-punctuation: first last;
+    /* font-family: "Roboto", sans-serif; */
+    height: 100vh;
+    font-family: 'Valentines';
+}
+
+body,
+:root{
+    position: relative;
+    height: 100vh;
+    min-width: 320px;
+
+    /* background-color: green; */
+}
+
+video{
+    display: block;
+    max-width: 100%;
+}
+
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+p {
+    max-width: 75ch;
+    text-wrap: pretty;
+}
+
+
+@media (prefers-reduced-motion: no-preference){
+    :has(:target){
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+    }
+}
