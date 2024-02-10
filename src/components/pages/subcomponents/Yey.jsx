@@ -18,7 +18,7 @@ function Yey() {
                 alt='Yey Image'
             />
         </div>
-        <h1 className='yey-message'>YEY!!! HAPPY VALENTINES DAY!!! MMMWAHH!!!</h1>
+        <h1 className='yey-message'>YEY!!! HAPPY VALENTINE'S DAY!!! MMMWAHH!!!</h1>
     </div>
   )
 }

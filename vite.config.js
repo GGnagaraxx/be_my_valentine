@@ -16,5 +16,5 @@ export default defineConfig({
       plugins: ['@emotion/babel-plugin'],
     },
   })],
-  base: "/be_my_valentines/"
+  base: "/be_my_valentine/"
 })
