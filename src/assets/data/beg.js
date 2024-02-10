@@ -1,6 +1,6 @@
 const begDialogs = [
-    "Please?",
-    "Pretty please?",
+    "Please dont click this. :<",
+    "Pretty please say yes?",
     "*Puppy Eyes*",
     "I'm kneeling",
     "Why nooooot???",
